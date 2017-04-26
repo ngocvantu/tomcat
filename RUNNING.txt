@@ -181,8 +181,7 @@ launches Java directly and does not use the script files.
 
   On Windows:
 
-      %CATALINA_HOME%\bin\startup.bat
-
+      %CATALINA_HOME%\bin\startup.bat ask
     or
 
       %CATALINA_HOME%\bin\catalina.bat start
