@@ -11,3 +11,4 @@
 26-Apr-2017 14:33:30.701 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@62b2fc7e')
 26-Apr-2017 14:33:30.716 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@3c95aed1')
 26-Apr-2017 14:33:31.157 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionCreated('5E8B9A3683D3FACA08D5CE63B1894F92')
+26-Apr-2017 15:43:53.276 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionDestroyed('2B5B46691BB1B55387BD3EB63EF6A909')

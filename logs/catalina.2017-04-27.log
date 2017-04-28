@@ -1,0 +1,47 @@
+27-Apr-2017 02:22:37.215 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /root/tomcat/tomcat-8.5.11/webapps/engreview
+27-Apr-2017 02:22:38.326 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2017 02:22:38.363 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /root/tomcat/tomcat-8.5.11/webapps/engreview has finished in 1,147 ms
+27-Apr-2017 02:23:41.009 INFO [http-nio-8080-exec-6] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.0.1.Final}
+27-Apr-2017 02:23:41.012 INFO [http-nio-8080-exec-6] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+27-Apr-2017 02:23:41.014 INFO [http-nio-8080-exec-6] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+27-Apr-2017 02:23:41.676 INFO [http-nio-8080-exec-6] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+27-Apr-2017 02:23:41.895 WARN [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+27-Apr-2017 02:23:41.919 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/engreview?UseUnicode=true&characterEncoding=utf8;]
+27-Apr-2017 02:23:41.919 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {user=root, password=****, CharSet=utf8, characterEncoding=utf8}
+27-Apr-2017 02:23:41.920 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+27-Apr-2017 02:23:41.922 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 20 (min=1)
+27-Apr-2017 02:23:46.741 WARN [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+27-Apr-2017 02:23:46.742 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/engreview?UseUnicode=true&characterEncoding=utf8;]
+27-Apr-2017 02:23:46.742 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {user=root, password=****, CharSet=utf8, characterEncoding=utf8}
+27-Apr-2017 02:23:46.742 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+27-Apr-2017 02:23:46.743 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 20 (min=1)
+27-Apr-2017 02:23:49.167 WARN [http-nio-8080-exec-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+27-Apr-2017 02:23:49.168 INFO [http-nio-8080-exec-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/engreview?UseUnicode=true&characterEncoding=utf8;]
+27-Apr-2017 02:23:49.169 INFO [http-nio-8080-exec-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {user=root, password=****, CharSet=utf8, characterEncoding=utf8}
+27-Apr-2017 02:23:49.169 INFO [http-nio-8080-exec-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+27-Apr-2017 02:23:49.169 INFO [http-nio-8080-exec-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 20 (min=1)
+27-Apr-2017 02:27:04.414 WARN [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+27-Apr-2017 02:27:04.415 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost/engreview?UseUnicode=true&characterEncoding=utf8;]
+27-Apr-2017 02:27:04.415 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {user=root, password=****, CharSet=utf8, characterEncoding=utf8}
+27-Apr-2017 02:27:04.415 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+27-Apr-2017 02:27:04.416 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 20 (min=1)
+27-Apr-2017 02:27:04.423 INFO [Finalizer] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/engreview?UseUnicode=true&characterEncoding=utf8;]
+27-Apr-2017 02:27:04.426 INFO [Finalizer] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/engreview?UseUnicode=true&characterEncoding=utf8;]
+27-Apr-2017 02:27:04.510 INFO [http-nio-8080-exec-5] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+27-Apr-2017 02:27:05.480 INFO [http-nio-8080-exec-5] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000228: Running hbm2ddl schema update
+27-Apr-2017 02:27:05.766 INFO [http-nio-8080-exec-5] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+27-Apr-2017 10:34:22.669 INFO [http-nio-8080-exec-2] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:421)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:667)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+27-Apr-2017 15:22:41.807 INFO [Finalizer] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop HHH000030: Cleaning up connection pool [jdbc:mysql://localhost/engreview?UseUnicode=true&characterEncoding=utf8;]
