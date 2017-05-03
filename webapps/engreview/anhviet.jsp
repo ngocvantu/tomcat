@@ -1,5 +1,3 @@
-<%@page import="java.util.List"%>
-<%@page import="com.object.TuVung"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" 
@@ -9,7 +7,7 @@
 <head>
 <%@ include file="/import.jsp" %> 
 
-<title>Anh Việt hehe</title>
+<title>Anh Việt</title>
 <style type="text/css">
 table tr td{
 	border-bottom: solid 1px blue;
@@ -50,20 +48,16 @@ a.linktuvung:HOVER {
 </head>
 <body>
 	<%@ include file="/header.jsp" %> 
-	<hr>
-		<%List<TuVung> listTuVung = (List<TuVung>)request.getAttribute("listTuVung");
-		%>
-		Số từ vựng: <%=listTuVung.size() %> <br>
+	<hr> 
+	<br>
 	<c:set var="i" value="1" scope="page" />
-	<c:set var="j" value="1" scope="page" />
-<%-- 	<c:forEach items="${listTuVung}"  var="tuvung" > --%>
-<%-- 		<span style="font-weight: bold;" >${i}. ${tuvung.tuvung }</span>; ${tuvung.vidu1 }; ${tuvung.vidu2 }; ${tuvung.nghia }== --%>
-<%-- 		<c:set var="i" value="${i + 1}" scope="page"/> --%>
-<%-- 	</c:forEach> --%>
+	<c:set var="j" value="1" scope="page" /> 
+	
 	<br>
 	<button id="hienthixoa" >Hiển thị xóa</button>
 	<button id="hienthinghia" >Hiển thị nghĩa</button>
 	<a href="/engreview/XuatFile" target="blank" >Xuất file pdf</a>
+	
 	<table id="tuvung" style="width: 100%" >
 	<c:forEach items="${listTuVung}"  var="tuvung" >
 		<tr>
