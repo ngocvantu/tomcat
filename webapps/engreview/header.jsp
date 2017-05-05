@@ -43,12 +43,13 @@ li a.active {
   <li><a id="vietanh" href="<%=request.getContextPath()%>/vietanh">Việt-Anh</a></li>
   <li><a id="chitiet" href="<%=request.getContextPath()%>/chitiet">Chi tiết</a></li>
   <li><a id="toeic600" href="<%=request.getContextPath()%>/toeic600">Toeic 600</a></li>
-  <li><a id="macdinh" href="<%=request.getContextPath()%>/macdinh">Cài đặt mặc định</a></li>
+  <li><a id="macdinh" href="<%=request.getContextPath()%>/macdinh">Cài đặt</a></li>
   <li><a id="homnay" href="<%=request.getContextPath()%>/homnay">Hôm nay</a></li>
   <li><a id="homqua" href="<%=request.getContextPath()%>/homqua">Hôm qua</a></li>
   <li><a id="homkia" href="<%=request.getContextPath()%>/homkia">Hôm kia</a></li> 
   <li><a id="fibonaci" href="<%=request.getContextPath()%>/fibonaci">Fibonaci</a></li>
   <li><a id="ontap" href="<%=request.getContextPath()%>/ontap">Ôn tập</a></li>
+  <li><a id="filter" href="<%=request.getContextPath()%>/chaofilter">Chao Filter</a></li>
   
   <li><a id="theodoi" href="<%=request.getContextPath()%>/theodoi">Theo dõi</a></li>
 </ul>
