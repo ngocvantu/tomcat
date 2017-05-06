@@ -102,6 +102,7 @@
 				$('#chitiet_btn_sua').addClass("btn_huy");
 				$('#chitiet_btn_xong').css("display","inline");
 				$("table tr td input").css("display","inline");
+				$("table tr td img").css("display","inline");
 				$("table tr td span").css("display","none");
 				$("#tuvung").css("display","inline");
 				$("#nghia").css("display","inline");
@@ -111,6 +112,7 @@
 				$('#chitiet_btn_xong').css("display","none");
 				$("table tr td input").css("display","none");
 				$("table tr td span").css("display","inline");
+				$("table tr td img").css("display","none");
 				$("#tuvung").css("display","none");
 				$("#nghia").css("display","none");
 				$("#anh").css("display","none");
