@@ -8,7 +8,7 @@ function connect() {
 	log.scrollTop = log.scrollHeight;
 	
 	var username = document.getElementById("username").value;
-	var wsURI = "ws://localhost:8080/ChaoStruts/chao/" + username;
+	var wsURI = "ws://45.32.118.97:8080/engreview/chao/" + username;
 	
 	ws =  new WebSocket(wsURI);
 	
