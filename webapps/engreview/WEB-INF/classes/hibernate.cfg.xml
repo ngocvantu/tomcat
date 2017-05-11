@@ -19,6 +19,7 @@
 			root
 		</property>
 		<property name="hibernate.connection.password">
+			root
 		</property>
 		<property name="hibernate.connection.CharSet">utf8</property>
         <property name="hibernate.connection.characterEncoding">utf8</property>
