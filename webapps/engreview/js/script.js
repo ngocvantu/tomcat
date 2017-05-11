@@ -21,8 +21,8 @@ function connect() {
 		var i=0;
 		log.innerHTML += "<br>" + event.data;
 		log.scrollTop = log.scrollHeight;
-//		var audio = new Audio('bong.mp3');
-//		audio.play(); 
+		var audio = new Audio('bong.mp3');
+		audio.play(); 
 	}
 	
 	ws.onclose = function(evt) {
