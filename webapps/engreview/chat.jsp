@@ -19,7 +19,7 @@
                 <td>
                     <div id="log"></div>
                 </td>
-            </tr>
+            </tr> 
             <tr>
                 <td>
                     <input type="text" size="15" id="to" placeholder="To"/>
@@ -29,5 +29,5 @@
             </tr>
         </table>
     </body>
-<script type="text/javascript"  src="http://45.32.118.97:8080/engreview/js/script.js"></script>
+<script type="text/javascript"  src="http://localhost:8080/ChaoStruts/js/script.js"></script>
 </html>
